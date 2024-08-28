@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial, Helvetica, sans-serif';
+}
+/* nav */
+.navbar{
+    background-color: rgb(56, 54, 54);
+}
+.navbar i{
+    color: orangered;
+}
+.navbar i:hover{
+    color: white;
+}
+.navbar-brand{
+    position: relative;
+    left: 3rem;
+    color: white;
+}
+.navbar-brand:hover{
+    color: orangered;
+}
+.nav-item{
+    position: relative;
+    left: 50rem;
+    gap: 10em;
+    font-size: 20px;
+}
+.nav-item a{
+    color: white;
+}
+.nav-item a:hover{
+    color: orangered;
+}
+
+/* section2 */
+.sec2{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    padding: 30px 12% 5px;
+}
+.containor{
+    max-width: 1400px;
+}
+.containor h3{
+    font-size: 43px;
+}
+.containor h1{
+    font-size: 62px;
+    line-height: 1.2;
+}
+.containor p{
+    font-size: 25px;
+    margin: 25px 0 30px;
+}
+.btn-box{
+    display: flex;
+    gap: 2em;
+    width: 350px;
+}
+.btn-1{
+    padding: 15px 60px;
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.btn-2{
+    padding: 15px 38px;
+    background-color: orangered;
+    color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-2:hover{
+    background-color: white;
+    color: orangered;
+}
+.img-box img{
+    border-radius: 50%;
+    width: 300px;
+}
+
+/* about me */
+.about{
+    background-color: rgb(56, 54, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+}
+.about-img img{
+    position: relative;
+    width: 550px;
+    box-shadow: 0 0 25px orangered,
+                0 0 50px orangered;
+    border-radius: 50px;
+} 
+.about-content h2{
+    color: white;
+    font-size: 45px;
+    text-align: left;
+}
+.about-content h3{
+    font-size: 60px;
+    color: white;
+}
+.about-content span{
+    color: orangered;
+}
+.about-content p{
+    color: white;
+    font-size: 20px;
+    margin: 2em 0 3em;
+}
+.project{
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    min-height: 100vh;
+}
+.pro h2{
+    color: black;
+    font-size: 45px;
+}
+.pro span{
+    color: orangered;
+}
+.pro p{
+    font-size: 25px;
+}
+.pro li{
+    color: orangered;
+    font-size: 30px;
+}
+.pro .p{
+    color:black;
+    font-size: 20px;
+}
+
+/* contact */
+.contact{
+    background-color: rgb(56, 54, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.con-1 h1{
+    color: white;
+}
+.con-1 span{
+    color: orangered;
+}
+.con-1 a{
+    color: orangered;
+    text-decoration: none;
+    font-size: 25px;
+}
+.con-1 a:hover{
+    color: white;
+}
+.con-1 h4{
+    color: white;
+    font-size: 20px;
+}
+.con-2 form{
+    display: flex;
+    flex-direction: column;
+}
+.con-2 label{
+    color: orangered;
+    font-size: 20px;
+}
+.con-2 input{
+    border: 2px solid rgb(56, 54, 54);
+    padding: 10px;
+    border-radius: 30px;
+}
+.dropdown-menu a{
+    color: black;
+}
+
+/* footer */
+.foot{
+    width: 100%;
+    min-height: 10vh;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7em;padding: 30px 12% 0;
+}
+.foot i{
+    position: relative;
+    left: 5rem;
+    gap: 4em;
+}
